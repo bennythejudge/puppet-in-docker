@@ -20,3 +20,7 @@ SERVICE_STOP_RETRIES=60
 # seconds.  This is used in System-V style init scripts only, and will have no
 # effect in systemd.
 # START_TIMEOUT=120
+
+echo "******************************"
+echo "using JAVA_ARGS: $JAVA_ARGS"
+echo "******************************"
